@@ -78,6 +78,10 @@ int main()
         case 4:
         resultado = Dividir(a,b);
         break;
+        
+        default:
+        printf("Valor válido!\n");
+        break;
     }
     
     printf("O resultado da operação é: %.2f", resultado);
